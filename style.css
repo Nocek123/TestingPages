@@ -140,3 +140,65 @@ form {
 .loginForm .btn:hover, .open-button:hover {
   opacity: 1;
 }
+
+/* PONIŻEJ SĄ STYLE DLA PAGE2 */
+
+.sit {
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  padding: 5px;
+  margin: 5px;
+  border: 2px solid black;
+  float: left;
+  cursor: pointer;
+  border-radius: 10px;
+}
+.sit:hover {
+  background-color: rgba(127, 255, 212, 0.336);
+  color: rgb(53, 248, 183);
+  border-color: rgb(53, 248, 183);
+}
+.sitClicked {
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  padding: 5px;
+  margin: 5px;
+  border: 2px solid rgb(38, 31, 245);
+  color: rgb(38, 31, 245);
+  background-color: rgba(38, 31, 245, 0.472);
+  float: left;
+  cursor: pointer;
+  border-radius: 10px;
+}
+.planeEmbr {
+  /* 586px dla Dreamlinera  266px dla EMBRAERA  374px dla BOEINGA*/
+  width: 266px;
+  margin-left: auto;
+  margin-right: auto;
+  border: solid;
+  border-color: rgb(80, 80, 255);
+}
+.planeBoeing {
+  width: 374px;
+  margin-left: auto;
+  margin-right: auto;
+  border: solid;
+  border-color: rgb(80, 80, 255);
+}
+.planeDream {
+  width: 586px;
+  margin-left: auto;
+  margin-right: auto;
+  border: solid;
+  border-color: rgb(80, 80, 255);
+}
+
+.empty {
+  width: 30px;
+  height: 30px;
+  padding: 5px;
+  margin: 5px;
+  float: left;
+}
