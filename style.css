@@ -1,0 +1,142 @@
+#okalajacy {
+    display: grid;
+    grid-template-columns: 15% 25% 20% 25% 15%;
+    grid-template-rows: 100px 100px 200px 300px 100px;
+}
+#one {
+    display:flex;
+    justify-content: space-between;
+    height: 100%;
+    background-color: aqua;
+    margin: 0;
+    padding: 0px;
+    width: 100%;
+    grid-column: 2/5;
+    grid-row: 1/2;
+}
+#one-1 {
+    display:grid;
+    height: 100%;
+    background-color: aqua;
+    margin: 0;
+    padding: 0px;
+    width: 100%;
+    grid-column: 2/5;
+    grid-row: 2/3;
+}
+#two {
+    display:grid;
+    height: 100%;
+    background-color: rgb(0, 255, 106);
+    margin: 0;
+    padding: 0px;
+    width: 100%;
+    grid-column: 2/4;
+    grid-row: 3/5;
+}
+#three {
+    display: flex;
+    justify-content: center;
+    height:100%;
+    background-color: rgb(255, 0, 128);
+    margin: 0;
+    padding: 0 0 0 0;
+    width: 100%;
+    grid-column: 4/5;
+    grid-row: 3/5;
+}
+#four {
+    height:100%;
+    background-color: pink;
+    margin: 0;
+    padding: 0px;
+    width: 100%;
+    grid-column: 2/5;
+    grid-row: 5/6;
+}
+#hasloReklamowe {
+  font-size: 30px;
+  align-self: end;
+  justify-self: center;
+  margin-bottom: 20px;
+}
+#buttonZaloguj {
+  width: 100px;
+  height: 50px;
+  justify-self: end;
+  margin: 20px 30px 0 0;
+}
+#photo {
+  height: 100px;
+  margin: 10px;
+}
+form {
+  justify-self:center;
+}
+
+.open-button {
+  background-color: #555;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  position: fixed;
+  bottom: 23px;
+  right: 28px;
+  width: 280px;
+}
+.shadow {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 7;
+  background-color: rgb(25, 25, 25);
+  opacity: 0.7;
+}
+
+.loginDiv {
+  position: fixed;
+  width: 350px;
+  top: 30%;
+  left: 30%;
+  border: 3px solid #ec4040;
+  z-index: 9;
+}
+.loginDivInvisible {
+  display: none;
+}
+.loginDivVisible {
+  display: block;
+}
+.loginForm {
+  max-width: 100%;
+  padding: 10px;
+  background-color: white;
+}
+.loginForm input[type=text], .loginForm input[type=password] {
+  width: 90%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+.loginForm input[type=text]:focus, .loginForm input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+.loginForm .btn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  opacity: 0.8;
+}
+.loginForm .btn:hover, .open-button:hover {
+  opacity: 1;
+}
